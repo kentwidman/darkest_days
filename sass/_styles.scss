@@ -53,9 +53,10 @@ header{
 /* footer */
 $social_btn_size: 50px;
 footer {
+	height: 100px;
+	padding-top:25px;
 	background-color: #46515c;
 	.social {
-		padding: 20px 0 20px 0;
 		width: 170px;
 		a{
 			display: block;
