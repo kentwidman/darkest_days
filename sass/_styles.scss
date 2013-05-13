@@ -22,23 +22,32 @@ h3 {
 
 p { font-family: 'museo_slab500', Arial, sans-serif; }
 
-header,
-.chapter{
-	color: #46525A;
-}
-
 header{
 	height: 100%;
 	min-height: 600px;
+	color: #46525A;
 	h1{
 		margin-top: 20%;
 		text-align: center;
 	}
 }
 
-.arrow{
-	margin: 15% auto 0 auto;
+.chapter{
+	color: #46525A;
+	h1{
+		line-height: 0.6;
+	}
+	h2{
+		font-size: 1.8em;
+	}
 }
+
+.chapter-section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #46525A;
+}
+
 
 footer{
 	background-color: #46525A;
@@ -47,8 +56,4 @@ footer{
 	width: 100%
 }
 
-.chapter-section{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	border-top: 1px solid #46525A;
-}
+

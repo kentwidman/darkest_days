@@ -6471,39 +6471,42 @@ p {
   font-family: 'museo_slab500', Arial, sans-serif;
 }
 
-/* line 26, ../sass/_styles.scss */
-header,
-.chapter {
-  color: #46525A;
-}
-
-/* line 30, ../sass/_styles.scss */
+/* line 25, ../sass/_styles.scss */
 header {
   height: 100%;
   min-height: 600px;
+  color: #46525A;
 }
-/* line 33, ../sass/_styles.scss */
+/* line 29, ../sass/_styles.scss */
 header h1 {
   margin-top: 20%;
   text-align: center;
 }
 
-/* line 39, ../sass/_styles.scss */
-.arrow {
-  margin: 15% auto 0 auto;
+/* line 35, ../sass/_styles.scss */
+.chapter {
+  color: #46525A;
+}
+/* line 37, ../sass/_styles.scss */
+.chapter h1 {
+  line-height: 0.6;
+}
+/* line 40, ../sass/_styles.scss */
+.chapter h2 {
+  font-size: 1.8em;
 }
 
-/* line 43, ../sass/_styles.scss */
+/* line 45, ../sass/_styles.scss */
+.chapter-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #46525A;
+}
+
+/* line 52, ../sass/_styles.scss */
 footer {
   background-color: #46525A;
   color: #fff;
   height: 300px;
   width: 100%;
-}
-
-/* line 50, ../sass/_styles.scss */
-.chapter-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-top: 1px solid #46525A;
 }
