@@ -6486,24 +6486,38 @@ header h1 {
 /* line 35, ../sass/_styles.scss */
 .chapter {
   color: #46525A;
+  margin-bottom: 100px;
 }
-/* line 37, ../sass/_styles.scss */
+/* line 38, ../sass/_styles.scss */
 .chapter h1 {
   line-height: 0.6;
 }
-/* line 40, ../sass/_styles.scss */
+/* line 41, ../sass/_styles.scss */
 .chapter h2 {
   font-size: 1.8em;
 }
 
-/* line 45, ../sass/_styles.scss */
+/* line 46, ../sass/_styles.scss */
 .chapter-section {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
   border-bottom: 1px solid #46525A;
 }
+/* line 50, ../sass/_styles.scss */
+.chapter-section p {
+  font-size: 1.3em;
+  margin-bottom: 1.0em;
+}
+/* line 54, ../sass/_styles.scss */
+.chapter-section:last-child {
+  border-bottom: 0;
+}
+/* line 57, ../sass/_styles.scss */
+.chapter-section.first {
+  padding-top: 20px;
+}
 
-/* line 52, ../sass/_styles.scss */
+/* line 63, ../sass/_styles.scss */
 footer {
   background-color: #46525A;
   color: #fff;

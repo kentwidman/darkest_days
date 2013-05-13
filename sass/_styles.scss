@@ -34,6 +34,7 @@ header{
 
 .chapter{
 	color: #46525A;
+	margin-bottom: 100px;
 	h1{
 		line-height: 0.6;
 	}
@@ -43,9 +44,19 @@ header{
 }
 
 .chapter-section{
-	padding-top: 40px;
+	padding-top: 60px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid #46525A;
+	p{
+		font-size: 1.3em;
+		margin-bottom: 1.0em;
+	}
+	&:last-child{
+		border-bottom: 0;
+	}
+	&.first{
+		padding-top: 20px;
+	}
 }
 
 
