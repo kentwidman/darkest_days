@@ -59,12 +59,34 @@ header{
 	}
 }
 
-
-footer{
-	background-color: #46525A;
-	color: #fff;
-	height: 300px;
-	width: 100%
+.chapter-section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #46525A;
 }
 
+.center-margin{
+	margin: 0 auto;
+}
 
+/* footer */
+$social_btn_size: 50px;
+footer {
+	background-color: #46515c;
+	.social {
+		padding: 20px 0 20px 0;
+		width: 170px;
+		a{
+			display: block;
+			margin-left: 10px;
+			float: left;
+			&:first-child{
+				margin-left: 0;
+			}
+		}
+		img {
+			height: $social_btn_size;
+			width: $social_btn_size;
+		}
+	}
+}
