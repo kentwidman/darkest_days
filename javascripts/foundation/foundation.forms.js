@@ -87,6 +87,9 @@
             }
           }
         })
+        .on('mousedown.fndtn.forms', 'form.custom div.custom.dropdown', function () {
+          return false;
+        })
         .on('click.fndtn.forms', 'form.custom div.custom.dropdown a.current, form.custom div.custom.dropdown a.selector', function (e) {
           var $this = $(this),
               $dropdown = $this.closest('div.custom.dropdown'),
@@ -196,14 +199,14 @@
       this.settings.init = true;
     },
 
-    go_to: function (dropdown, char) {
+    go_to: function (dropdown, character) {
       var lis = dropdown.find('li'),
           count = lis.length;
 
       if (count > 0) {
         for (var i = 0; i < count; i++) {
           var first_letter = lis.eq(i).text().charAt(0).toLowerCase();
-          if (first_letter === String.fromCharCode(char).toLowerCase()) return lis.eq(i);
+          if (first_letter === String.fromCharCode(character).toLowerCase()) return lis.eq(i);
         }
       }
     },
@@ -445,7 +448,7 @@
           var _self = this;
 
           // Set all hidden parent elements, including this element.
-          _self.hidden = $child.parents().andSelf().filter(":hidden");
+          _self.hidden = $child.parents().addBack().filter(":hidden");
 
           // Loop through all hidden elements.
           _self.hidden.each(function () {

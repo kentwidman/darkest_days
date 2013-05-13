@@ -1,6 +1,50 @@
+html {
+  background: url(../images/bg-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
 
+body {
+	color: #fff;
+	background: transparent;
+	height: 100%;
+}
 
+h1,
+h2,
+h3 {
+	color: #46525A;
+	font-family: 'museo_slab500', Arial, sans-serif;
+}
 
+p { font-family: 'museo_slab500', Arial, sans-serif; }
+
+header,
+.chapter{
+	color: #46525A;
+}
+
+header{
+	height: 100%;
+	min-height: 600px;
+	h1{
+		margin-top: 20%;
+		text-align: center;
+	}
+}
+
+.arrow{
+	margin: 15% auto 0 auto;
+}
+
+.chapter-section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #46525A;
+}
 
 .center-margin{
 	margin: 0 auto;
