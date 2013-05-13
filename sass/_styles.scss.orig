@@ -59,9 +59,21 @@ header{
 	}
 }
 
+<<<<<<< HEAD
+
+footer{
+	background-color: #46525A;
+	color: #fff;
+	height: 300px;
+	width: 100%
+}
+
+
+=======
 .chapter-section{
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
+	border-top: 1px solid #46525A;
 }
 
 .center-margin{
@@ -71,10 +83,9 @@ header{
 /* footer */
 $social_btn_size: 50px;
 footer {
-	height: 100px;
-	padding-top: 25px;
 	background-color: #46515c;
 	.social {
+		padding: 20px 0 20px 0;
 		width: 170px;
 		a{
 			display: block;
@@ -90,3 +101,4 @@ footer {
 		}
 	}
 }
+>>>>>>> f28fe49006326d5ef2281de04337c111f79b3d5c
